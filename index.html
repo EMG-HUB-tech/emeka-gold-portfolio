@@ -1,2 +1,63 @@
-📄 index.html       ← replace the old one
-🖼️ emeka-gold.jpg   ← upload beside it
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EMGHUB Research & Data Analysis Consultant</title>
+<meta name="description" content="EMGHUB Research & Data Analysis Consultant — research design, data analysis, academic writing, literature review and research consultation.">
+<style>
+:root{--navy:#06182d;--navy2:#0b2948;--blue:#168cff;--teal:#57e0c0;--white:#fff;--ink:#0b1730;--muted:#aebed0;--line:#dbe5ef;--soft:#f5f8fb;--max:1200px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--white);line-height:1.55}a{text-decoration:none;color:inherit}
+.wrap{max-width:var(--max);margin:auto;padding:0 28px}
+nav{height:76px;display:flex;align-items:center;justify-content:space-between;background:#fff;border-bottom:1px solid #e8eef4;position:sticky;top:0;z-index:20}.brand{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.02em}.mark{width:40px;height:40px;border-radius:11px;background:linear-gradient(145deg,var(--blue),#0755b5);display:grid;place-items:center;color:#fff;font-weight:950}.brand small{display:block;font-size:.58rem;letter-spacing:.07em;color:#3c526b;margin-top:-2px}.navlinks{display:flex;gap:25px;font-size:.9rem;font-weight:700;color:#233c59}.navlinks a:hover{color:var(--blue)}.navbtn{background:#0755b5;color:#fff;padding:11px 18px;border-radius:999px;font-weight:800}
+.hero{background:linear-gradient(110deg,#04172c 0%,#09294a 56%,#0c3a64 100%);color:#fff;overflow:hidden}.hero-grid{display:grid;grid-template-columns:340px 1fr;min-height:560px;align-items:center;gap:55px}.portrait{align-self:end;height:555px;display:flex;align-items:end;justify-content:center}.portrait img{width:100%;height:535px;object-fit:cover;object-position:center top;border-radius:26px 26px 0 0;border:2px solid rgba(22,140,255,.55);box-shadow:0 30px 80px rgba(0,0,0,.3)}.eyebrow{text-transform:uppercase;letter-spacing:.25em;font-size:.72rem;color:#6acfff;font-weight:900}.hero h1{font-size:clamp(2.6rem,5vw,5.3rem);line-height:.98;letter-spacing:-.05em;margin:15px 0 20px}.hero h1 span{color:#20a6ff}.lead{max-width:720px;color:#d8e6f3;font-size:1.12rem}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.btn{padding:13px 20px;border:1px solid rgba(255,255,255,.45);border-radius:999px;font-weight:850}.btn.primary{background:#1199ff;border-color:#1199ff}.owner{margin-top:16px;color:#c5d7e8}.owner strong{display:block;color:#fff;font-size:1.15rem}.pillrow{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.pill{padding:9px 13px;border:1px solid rgba(255,255,255,.18);border-radius:999px;color:#d9e8f6;font-size:.86rem}
+.services{display:grid;grid-template-columns:repeat(6,1fr);border-bottom:1px solid var(--line)}.service{padding:28px 15px;text-align:center;border-right:1px solid var(--line)}.service:last-child{border:0}.icon{width:44px;height:44px;margin:auto auto 12px;border-radius:12px;background:#e9f4ff;color:#0755b5;display:grid;place-items:center;font-weight:950}.service h3{font-size:1rem;margin:0 0 6px}.service p{font-size:.84rem;color:#65758a;margin:0}
+section{padding:82px 0}.dark{background:var(--navy);color:#fff}.section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:30px}.section-head h2{font-size:2.4rem;line-height:1.05;margin:5px 0}.section-head p{max-width:610px;color:#74869b}.dark .section-head p{color:#b8c8d9}
+.research-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}.research{background:#fff;color:var(--ink);padding:28px 16px;border-radius:16px;text-align:center;min-height:150px;display:flex;flex-direction:column;justify-content:center}.research h3{font-size:1rem;margin:12px 0 3px}.research p{font-size:.8rem;color:#69798c;margin:0}
+.about{display:grid;grid-template-columns:.7fr 1.3fr;gap:70px}.about p{color:#617389;font-size:1.06rem}.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.skill{padding:18px;border:1px solid var(--line);border-radius:15px;font-weight:800;background:#fff}
+.contact{background:linear-gradient(120deg,#eaf5ff,#f8fbff);border-top:1px solid var(--line)}.contactgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.contactcard{padding:28px;background:#fff;border:1px solid var(--line);border-radius:20px}.contactcard .label{font-size:.7rem;text-transform:uppercase;letter-spacing:.15em;color:#0872d0;font-weight:900}.contactcard a{display:block;font-size:1.15rem;font-weight:850;margin-top:7px}
+footer{background:#041426;color:#a9bacb;padding:30px 0;font-size:.88rem}.foot{display:flex;justify-content:space-between;gap:20px}
+@media(max-width:900px){.navlinks{display:none}.hero-grid{grid-template-columns:1fr;gap:10px;padding-top:45px}.portrait{height:390px}.portrait img{height:390px;max-width:340px}.services{grid-template-columns:repeat(3,1fr)}.research-grid{grid-template-columns:repeat(3,1fr)}.about{grid-template-columns:1fr}.skills{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.wrap{padding:0 18px}.hero h1{font-size:3rem}.services{grid-template-columns:repeat(2,1fr)}.research-grid{grid-template-columns:1fr 1fr}.skills,.contactgrid{grid-template-columns:1fr}.foot{display:block}.portrait{height:330px}.portrait img{height:330px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap" style="width:100%;display:flex;align-items:center;justify-content:space-between"><a class="brand" href="#"><span class="mark">EG</span><span>EMGHUB<small>RESEARCH & DATA ANALYSIS CONSULTANT</small></span></a><div class="navlinks"><a href="#about">About</a><a href="#services">Services</a><a href="#research">Research Areas</a><a href="#work">Portfolio</a><a href="#contact">Contact</a></div><a class="navbtn" href="mailto:EMGHUB1@gmail.com">Get in Touch</a></div></nav>
+
+<header class="hero"><div class="wrap"><div class="hero-grid">
+<div class="portrait"><img src="emeka-gold.jpg" alt="Emeka Gold, Owner and Lead Consultant at EMGHUB"></div>
+<div>
+<div class="eyebrow">Evidence · Insight · Impact</div>
+<h1>EMGHUB RESEARCH &<br><span>DATA ANALYSIS CONSULTANT</span></h1>
+<p class="lead">Professional research support, data analysis and academic consultancy for students, researchers and organisations. We turn research questions into clear, evidence-based findings.</p>
+<div class="buttons"><a class="btn primary" href="#work">Explore My Work →</a><a class="btn" href="#contact">Contact Me →</a></div>
+<div class="owner">Owner & Lead Consultant<strong>Emeka Gold</strong></div>
+<div class="pillrow"><span class="pill">Reliable Support</span><span class="pill">Data-Driven Insights</span><span class="pill">Academic Excellence</span><span class="pill">Timely Delivery</span></div>
+</div></div></div></header>
+
+<section id="services" style="padding:0"><div class="wrap" style="max-width:none;padding:0"><div class="services">
+<div class="service"><div class="icon">01</div><h3>Research Design</h3><p>Well-structured research frameworks.</p></div>
+<div class="service"><div class="icon">02</div><h3>Data Analysis</h3><p>Professional quantitative analysis.</p></div>
+<div class="service"><div class="icon">03</div><h3>Academic Writing</h3><p>Theses, dissertations and articles.</p></div>
+<div class="service"><div class="icon">04</div><h3>Literature Review</h3><p>Evidence synthesis and review.</p></div>
+<div class="service"><div class="icon">05</div><h3>Research Consultation</h3><p>Guidance from proposal to publication.</p></div>
+<div class="service"><div class="icon">06</div><h3>Statistical Interpretation</h3><p>Clear interpretation of results.</p></div>
+</div></div></section>
+
+<section id="about"><div class="wrap"><div class="about"><div><div class="eyebrow" style="color:#0872d0">About EMGHUB</div><h2>Research support from question to conclusion.</h2></div><div><p>EMGHUB is led by Emeka Gold, a research-focused professional with experience in academic research, quantitative and qualitative data analysis, research methodology, literature review, academic writing, and interpretation of research findings.</p><p>The consultancy combines methodological rigour with clear, practical interpretation of data, supporting students, researchers and organisations across diverse research areas.</p></div></div></div></section>
+
+<section id="research" class="dark"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Research Areas</div><h2>Research across disciplines.</h2></div><p>Selected work is organised by research area, allowing visitors to explore project collections and outputs.</p></div>
+<div class="research-grid"><div class="research"><div class="icon">SW</div><h3>Social Work</h3><p>Research Collection</p></div><div class="research"><div class="icon">BA</div><h3>Business Administration</h3><p>Research Collection</p></div><div class="research"><div class="icon">MC</div><h3>Mass Communication</h3><p>Research Collection</p></div><div class="research"><div class="icon">PH</div><h3>Public Health</h3><p>Research Collection</p></div><div class="research"><div class="icon">PS</div><h3>Political Science</h3><p>Research Collection</p></div><div class="research"><div class="icon">IL</div><h3>International Law & Diplomacy</h3><p>Research Collection</p></div></div></div></section>
+
+<section id="work"><div class="wrap"><div class="section-head"><div><div class="eyebrow" style="color:#0872d0">Selected Work</div><h2>Explore the portfolio.</h2></div><p>Open a collection to view selected research projects and analysis work.</p></div>
+<div class="research-grid" style="grid-template-columns:repeat(4,1fr)">
+<a class="research" href="https://drive.google.com/drive/folders/1kmQTAa9peHYwKqp3I3O2_m1P0Z91HBw6?usp=sharing" target="_blank"><div class="icon">SW1</div><h3>Social Work</h3><p>Collection 01 →</p></a>
+<a class="research" href="https://drive.google.com/drive/folders/1nNLEp5N9WMBI721LnShkWhau5XKi9Hhn?usp=sharing" target="_blank"><div class="icon">SW2</div><h3>Social Work</h3><p>Collection 02 →</p></a>
+<a class="research" href="https://drive.google.com/drive/folders/1h2izYjN4ecn9WadQQG7d_JRyg5mVbqtS?usp=sharing" target="_blank"><div class="icon">RN</div><h3>Nursing</h3><p>Collection →</p></a>
+<a class="research" href="https://drive.google.com/drive/folders/14cAb2jIKoOUmUTpHkqswQ2HD-q_sc2lI?usp=sharing" target="_blank"><div class="icon">DA</div><h3>Data Analysis</h3><p>Portfolio →</p></a>
+</div></div></section>
+
+<section class="contact" id="contact"><div class="wrap"><div class="section-head"><div><div class="eyebrow" style="color:#0872d0">Professional Contact</div><h2>Let’s work on your research.</h2></div><p>Research consultation, data analysis, methodology support, academic writing and interpretation of findings.</p></div><div class="contactgrid"><div class="contactcard"><div class="label">Email</div><a href="mailto:EMGHUB1@gmail.com">EMGHUB1@gmail.com</a></div><div class="contactcard"><div class="label">Phone</div><a href="tel:+2347030534813">0703 053 4813</a></div></div></div></section>
+
+<footer><div class="wrap foot"><span>© 2026 EMGHUB Research & Data Analysis Consultant</span><span>Owner & Lead Consultant: Emeka Gold</span></div></footer>
+</body></html>
