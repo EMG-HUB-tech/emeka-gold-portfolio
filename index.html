@@ -142,7 +142,7 @@ section{padding:22px 0}
 }
 
 .projects-section{background:#fff}
-.project-grid{display:grid;grid-template-columns:minmax(0,720px);gap:18px}
+.project-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
 .project-card{border:1px solid #e1e9f5;border-radius:16px;overflow:hidden;background:#fff;box-shadow:0 8px 24px rgba(7,27,73,.07);transition:.2s}
 .project-card:hover{transform:translateY(-4px);box-shadow:0 15px 32px rgba(7,27,73,.12)}
 .project-visual{height:170px;background:linear-gradient(135deg,#062d66,#0b63f6);position:relative;display:grid;place-items:center;overflow:hidden}
@@ -153,7 +153,7 @@ section{padding:22px 0}
 .project-type{font-size:9px;letter-spacing:1.7px;color:var(--blue);font-weight:800}
 .project-body h3{font-size:21px;line-height:1.2;color:var(--navy);margin:8px 0}
 .project-body p{font-size:12px;line-height:1.5;color:var(--muted);min-height:38px;margin:0 0 14px}
-@media(max-width:760px){.project-grid{grid-template-columns:1fr}}
+@media(max-width:1050px){.project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}\n@media(max-width:760px){.project-grid{grid-template-columns:1fr}}
 
 </style>
 </head>
@@ -216,17 +216,66 @@ section{padding:22px 0}
     <div><h2>My Projects</h2><p>Selected research projects and current client work.</p></div>
     <a class="btn outline small" style="color:var(--blue);border-color:var(--blue)" href="#contact">Start a Project →</a>
   </div>
-  <div class="project-grid">
+  <div class="project-grid project-grid-three">
+    
     <article class="project-card">
       <div class="project-visual">
         <div class="folder-icon">📁</div>
-        <span class="project-status">🔵 In Progress</span>
+        <span class="project-status">🔵 Ongoing · 80%</span>
       </div>
       <div class="project-body">
         <span class="project-type">RESEARCH PROJECT</span>
         <h3>Family Functioning in Modern Age</h3>
         <p>Follow the current project materials and progress through the project folder.</p>
+        <div style="margin:10px 0 14px">
+          <div style="display:flex;justify-content:space-between;font-size:10px;font-weight:800;color:var(--navy);margin-bottom:5px">
+            <span>Project Progress</span><span>80%</span>
+          </div>
+          <div style="height:8px;background:#e7eef8;border-radius:10px;overflow:hidden">
+            <div style="width:80%;height:100%;background:linear-gradient(90deg,#0b63f6,#1684ff);border-radius:10px"></div>
+          </div>
+        </div>
         <a class="btn primary small" href="https://1drv.ms/f/c/f60b99bcb1f616fc/IgBPkBw9L_74SIZ6jHp-gajAAVgC-fTe_nsXEdvVe2sUH8I?e=NX0Xgp" target="_blank" rel="noopener">View Project Progress →</a>
+      </div>
+    </article>
+    <article class="project-card">
+      <div class="project-visual">
+        <div class="folder-icon">📁</div>
+        <span class="project-status">🔵 Ongoing · 60%</span>
+      </div>
+      <div class="project-body">
+        <span class="project-type">RESEARCH PROJECT</span>
+        <h3>Family Support and Psychological Resilience</h3>
+        <p>Follow the current project materials and progress through the project folder.</p>
+        <div style="margin:10px 0 14px">
+          <div style="display:flex;justify-content:space-between;font-size:10px;font-weight:800;color:var(--navy);margin-bottom:5px">
+            <span>Project Progress</span><span>60%</span>
+          </div>
+          <div style="height:8px;background:#e7eef8;border-radius:10px;overflow:hidden">
+            <div style="width:60%;height:100%;background:linear-gradient(90deg,#0b63f6,#1684ff);border-radius:10px"></div>
+          </div>
+        </div>
+        <a class="btn primary small" href="https://1drv.ms/f/c/f60b99bcb1f616fc/IgCGFx0K-1ZdQY7Nou74X88fAW6J8R_-DqfjyHSdk3fu400?e=HQt4L1" target="_blank" rel="noopener">View Project Progress →</a>
+      </div>
+    </article>
+    <article class="project-card">
+      <div class="project-visual">
+        <div class="folder-icon">📁</div>
+        <span class="project-status">🔵 Ongoing · 80%</span>
+      </div>
+      <div class="project-body">
+        <span class="project-type">RESEARCH PROJECT</span>
+        <h3>Burnout in Healthcare Setting: Issues and Solutions</h3>
+        <p>Follow the current project materials and progress through the project folder.</p>
+        <div style="margin:10px 0 14px">
+          <div style="display:flex;justify-content:space-between;font-size:10px;font-weight:800;color:var(--navy);margin-bottom:5px">
+            <span>Project Progress</span><span>80%</span>
+          </div>
+          <div style="height:8px;background:#e7eef8;border-radius:10px;overflow:hidden">
+            <div style="width:80%;height:100%;background:linear-gradient(90deg,#0b63f6,#1684ff);border-radius:10px"></div>
+          </div>
+        </div>
+        <a class="btn primary small" href="https://1drv.ms/f/c/f60b99bcb1f616fc/IgC6cjZeLDLmQI7p3GkT1ahzAX1IPApev9NBXRXC1w7c1UU?e=9ChCT6" target="_blank" rel="noopener">View Project Progress →</a>
       </div>
     </article>
   </div>
