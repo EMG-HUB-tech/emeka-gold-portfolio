@@ -142,16 +142,16 @@ section{padding:22px 0}
 }
 
 .projects-section{background:#fff}
-.project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.project-grid{display:grid;grid-template-columns:minmax(0,720px);gap:18px}
 .project-card{border:1px solid #e1e9f5;border-radius:16px;overflow:hidden;background:#fff;box-shadow:0 8px 24px rgba(7,27,73,.07);transition:.2s}
 .project-card:hover{transform:translateY(-4px);box-shadow:0 15px 32px rgba(7,27,73,.12)}
-.project-visual{height:145px;background:linear-gradient(135deg,#062d66,#0b63f6);position:relative;display:grid;place-items:center;overflow:hidden}
+.project-visual{height:170px;background:linear-gradient(135deg,#062d66,#0b63f6);position:relative;display:grid;place-items:center;overflow:hidden}
 .project-visual:before{content:"";position:absolute;width:220px;height:220px;border-radius:50%;background:rgba(255,255,255,.08);right:-80px;top:-110px}
 .folder-icon{font-size:55px;filter:drop-shadow(0 8px 10px rgba(0,0,0,.18));z-index:1}
 .project-status{position:absolute;left:12px;top:12px;background:#fff;color:#0759c9;padding:7px 10px;border-radius:20px;font-size:10px;font-weight:800;z-index:2}
 .project-body{padding:17px}
 .project-type{font-size:9px;letter-spacing:1.7px;color:var(--blue);font-weight:800}
-.project-body h3{font-size:18px;line-height:1.2;color:var(--navy);margin:8px 0}
+.project-body h3{font-size:21px;line-height:1.2;color:var(--navy);margin:8px 0}
 .project-body p{font-size:12px;line-height:1.5;color:var(--muted);min-height:38px;margin:0 0 14px}
 @media(max-width:760px){.project-grid{grid-template-columns:1fr}}
 
@@ -210,6 +210,29 @@ section{padding:22px 0}
     </div>
   </div>
 </section>
+<section class="projects-section" id="projects">
+<div class="container">
+  <div class="section-head">
+    <div><h2>My Projects</h2><p>Selected research projects and current client work.</p></div>
+    <a class="btn outline small" style="color:var(--blue);border-color:var(--blue)" href="#contact">Start a Project →</a>
+  </div>
+  <div class="project-grid">
+    <article class="project-card">
+      <div class="project-visual">
+        <div class="folder-icon">📁</div>
+        <span class="project-status">🔵 In Progress</span>
+      </div>
+      <div class="project-body">
+        <span class="project-type">RESEARCH PROJECT</span>
+        <h3>Family Functioning in Modern Age</h3>
+        <p>Follow the current project materials and progress through the project folder.</p>
+        <a class="btn primary small" href="https://1drv.ms/f/c/f60b99bcb1f616fc/IgBPkBw9L_74SIZ6jHp-gajAAVgC-fTe_nsXEdvVe2sUH8I?e=NX0Xgp" target="_blank" rel="noopener">View Project Progress →</a>
+      </div>
+    </article>
+  </div>
+</div>
+</section>
+
 
 <section class="services" id="services">
 <div class="container">
@@ -256,28 +279,7 @@ section{padding:22px 0}
 </section>
 
 
-<section class="projects-section" id="projects">
-<div class="container">
-  <div class="section-head">
-    <div><h2>My Projects</h2><p>Selected research projects and current client work.</p></div>
-    <a class="btn outline small" style="color:var(--blue);border-color:var(--blue)" href="#contact">Start a Project →</a>
-  </div>
-  <div class="project-grid">
-    <article class="project-card">
-      <div class="project-visual">
-        <div class="folder-icon">📁</div>
-        <span class="project-status">🔵 In Progress</span>
-      </div>
-      <div class="project-body">
-        <span class="project-type">RESEARCH PROJECT</span>
-        <h3>Family Functioning in Modern Age</h3>
-        <p>Follow the current project materials and progress through the project folder.</p>
-        <a class="btn primary small" href="https://1drv.ms/f/c/f60b99bcb1f616fc/IgBPkBw9L_74SIZ6jHp-gajAAVgC-fTe_nsXEdvVe2sUH8I?e=NX0Xgp" target="_blank" rel="noopener">View Project Progress →</a>
-      </div>
-    </article>
-  </div>
-</div>
-</section>
+
 
 <section class="about" id="about">
 <div class="container about-grid">
